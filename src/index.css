@@ -1,5 +1,7 @@
 *{
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
 }
 body{
   padding: 60px;
@@ -7,22 +9,34 @@ body{
 
 input{
   width: 100%;
-  color: grey;
+  color: #2c2727;
   font-size: 1.2rem;
   border-radius: 0.3rem;
-  border: 1px solid green;
+  border:none;
+  box-shadow: 1px 1px 2px 3px #d1cece9a;
+  user-select: none;
+  outline: none;
+  padding-left: 1rem;
 }
 .card{
-  align-content: center;
-  border:1px solid grey;
+  border:1px solid #f0d8d8e3;
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 10px;
   margin-right: 10px;
+  max-height: 200px;
+  max-width: 200px;
+  box-shadow: 1px 1px 2px 3px #d1cece9a;
 }
 .card p{
   text-align: center;
-  max-height: 170px;
+  max-height: 100px;
+  min-height: 30px;
+  word-wrap: break-word;
+}
+.card img{
+  width:100%;
+  height: calc(100% - 5rem);
 }
 
 .card-grid{
